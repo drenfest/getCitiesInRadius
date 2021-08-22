@@ -1,0 +1,11 @@
+{
+  "name": "getcitiesinradius",
+  "version": "0.0.5",
+  "description": "Pull A List Of US Cities States Counties and other metadata based on a mile radius",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gary Hunt",
+  "license": "ISC"
+}
