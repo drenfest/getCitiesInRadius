@@ -1,9 +1,6 @@
-const { locations, getLocationsInRadius} = require("./locations.js");
-
-
-
+const getInRadius = require("./locations.js");
 
 console.log(
-    getLocationsInRadius(30,61109)
+    getInRadius(30,61032)
 );
 

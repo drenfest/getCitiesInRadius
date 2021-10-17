@@ -13,7 +13,7 @@ function deg2rad(degrees) {
     return degrees * Math.PI / 180;
 }
 
-function getLocationsInRadius(distance,zip){
+const getInRadius = function getLocationsInRadius(distance,zip){
     //Pull Lat and Lon Coords from zip then calculate distances from there
     let uniqueLocations = [];
     let uniqueCities = [];
@@ -80,4 +80,4 @@ function getLocationsInRadius(distance,zip){
     return uniqueLocations;
 }
 
-module.exports = {locations,getLocationsInRadius};
+module.exports = getInRadius
